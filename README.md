@@ -43,31 +43,6 @@ The database file is named `expense_tracker.db` and contains a `transactions` ta
 | `type` | TEXT | `Income` or `Expense` |
 | `date` | TEXT | Transaction date in ISO-8601 format |
 
-## Run the project
-
-1. Install Flutter and configure an Android emulator or connect an Android device.
-2. Extract this project folder.
-3. Open a terminal in the `expense_tracker` folder.
-4. Generate the native platform folders (Android and iOS) with Flutter:
-
-```bash
-flutter create . --platforms=android,ios
-```
-
-5. Download the packages and run the app:
-
-```bash
-flutter pub get
-flutter run
-```
-
-To create an Android APK:
-
-```bash
-flutter build apk --release
-```
-
-The generated APK will be available at `build/app/outputs/flutter-apk/app-release.apk`.
 
 ## Project structure
 
